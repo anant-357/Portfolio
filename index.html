@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="navlist">
+      <li class="navel"><a href="#home">Home</a></li>
+      <li class="navel"><a href="#skill">Skills</a></li>
+      <li class="navel"><a href="#about">About</a></li>
+      <li class="navel"><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+  <section class="home-section active" id = "home">
+    <h1 class="main-heading">hi, i'm <br> anant</h1>
+    <img src="edit.jpg" class="home-img" alt="">
+
+  </section>
+  <section class="skill-section active" id = "skill">
+    <h1 class="skill-heading">some of my skills</h1>
+    <div class="skill-container">
+      <div class="skill-card">
+        <img src="image.jpg" class="skill-img" alt="">
+        <div class="skill-content">
+          <h1 class="skill-title">Python</h1>
+          <p class="skill-info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+          </p>
+          <div class="skill-btn-grp">
+            <a  href="https://github.com/anant-357/Python-projects" class="skill-btn github" >github repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <img src="web.png" class="skill-img" alt="">
+        <div class="skill-content">
+          <h1 class="skill-title">Web Development</h1>
+          <p class="skill-info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+          </p>
+          <div class="skill-btn-grp">
+            <a href="https://github.com/anant-357/MySitev2.0" class="skill-btn github">github repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <img src="lol.jpg" class="skill-img" alt="">
+        <div class="skill-content">
+          <h1 class="skill-title">DSA</h1>
+          <p class="skill-info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+          </p>
+          <div class="skill-btn-grp">
+            <a href="https://github.com/anant-357/DSA" class="skill-btn github">github repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <img src="hehe.jpg" class="skill-img" alt="">
+        <div class="skill-content">
+          <h1 class="skill-title">Data Science</h1>
+          <p class="skill-info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+          </p>
+          <div class="skill-btn-grp">
+            <a class="skill-btn github">github repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-section active" id = "about">
+    <h1 class="heading">About me</h1>
+    <div class="about">
+      <div class="about-img-container">
+        <img src="edit.jpg" class="about-img" alt="">
+        <a class="download-cv-btn">downlaod cv</a>
+      </div>
+      <p class="about-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+    </div>
+    <div class="timeline">
+      <h1 class="heading">education and experience</h1>
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">2007-2021</h1>
+          <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat
+            non magni cupiditate ea reprehenderit.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">2021-2023</h1>
+          <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat
+            non magni cupiditate ea reprehenderit.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">2021-2025</h1>
+          <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat
+            non magni cupiditate ea reprehenderit.</p>
+        </div>
+      </div>
+      <!-- <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">2000-2002</h1>
+          <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat
+            non magni cupiditate ea reprehenderit.</p>
+        </div>
+      </div> -->
+    </div>
+
+
+  </section>
+  <section class="contact-section active" id = "contact">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <a type="submit" class="form-submit-btn">contact</a>
+    </form>
+    <!-- map -->
+    <div class="map">
+        <iframe src="https://maps.google.com/maps?q=Indian%20Institute%20of%20information%20Technology%20Guwahati&t=&z=13&ie=UTF8&iwloc=&output=embed" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+<footer class="foot">
+  <p class="foot1text">Copyright &copy; <script>
+      document.write(new Date().getFullYear());
+    </script>, ALK</p>
+
+<div class="social" id="social">
+   <a href="https://www.instagram.com/anant.357/" class="social-button" id="instagram">
+      <svg class="icon" id="insta-icon" viewBox="0 0 24 24">
+         <path
+            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+      </svg>
+   </a>
+   <a href="https://github.com/anant-357" class="social-button" id="github">
+      <svg class="icon" id="github-icon" viewBox="0 0 24 24">
+         <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+      </svg>
+   </a>
+</div>
+
+
+</footer>
+</body>
+
+</html>
